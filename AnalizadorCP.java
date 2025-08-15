@@ -1,13 +1,12 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
 public class AnalizadorCP {
     public static void main(String[] args) {
         String rutaArchivo = "codigos_postales_hmo.csv";
-        Map<String, Integer> conteoCP = new HashMap<>();
+        Map<String, Integer> conteoCP = new TreeMap<>();
 
         try (BufferedReader lector = new BufferedReader(new FileReader(rutaArchivo))) {
             String linea;
