@@ -1,0 +1,20 @@
+# Ignorar configuraciones de IntelliJ
+.idea/
+*.iml
+
+# Ignorar archivos grandes y binarios
+*.jar
+*.exe
+*.dll
+*.log
+
+# Ignorar dependencias de Node.js (si usas)
+node_modules/
+
+# Ignorar archivos temporales
+*.tmp
+*.swp
+
+# Ignorar archivos del sistema
+Thumbs.db
+.DS_Store
