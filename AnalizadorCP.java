@@ -17,7 +17,7 @@ public class AnalizadorCP {
                 System.out.println(" Línea leída: " + linea);
 
                 // Omitir encabezado
-                if (primeraLinea && linea.toLowerCase().contains("asentamiento")) {
+                if (primeraLinea && linea.toLowerCase().contains("asentamiento")) {  //segun es poner todo en minusculas
                     primeraLinea = false;
                     continue;
                 }
